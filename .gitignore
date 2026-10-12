@@ -1,0 +1,32 @@
+﻿# Datasets originales: no redistribuir
+/data/raw/
+/data/external/
+/data/processed/
+
+# Archivos temporales de Power BI
+*.pbit.cache
+*.pbix.tmp
+*.lock
+~$*
+*.pbi/cache.abf
+
+# Python y Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.log
+
+/powerbi/ELECCIONES2021.pbix
