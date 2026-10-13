@@ -61,21 +61,15 @@ Estas cifras describen **asociaciones estadísticas entre distritos**; no establ
 ## Estructura del proyecto
 
 ```text
-Electoral2021/
-├── data/           # Datos locales excluidos de Git
-│   ├── raw/
-│   ├── processed/
-│   └── external/
-├── notebooks/      # Reservado para análisis futuros
-├── powerbi/        # PBIX y PDF
-├── sql/            # Reservado para consultas futuras
-├── src/            # Reservado para scripts futuros
-├── web/            # Reservado para una futura interfaz web
-├── images/         # Capturas del dashboard
-├── docs/           # Documentación
+piura-electoral-analysis-2021/
+├── powerbi/        # Dashboard PBIX y exportación PDF
+├── images/         # Capturas de las seis páginas del dashboard
+├── docs/           # Fuentes y metodología
 ├── .gitignore
 └── README.md
 ```
+
+Los datasets originales se conservan localmente y están excluidos del control de versiones. La futura plataforma web de exploración electoral del Perú se desarrollará en un repositorio independiente, con su propia API y base de datos; este repositorio mantiene únicamente el alcance del análisis de Business Intelligence.
 
 ## Consideraciones e independencia
 
